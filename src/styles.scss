@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    // margin: 0;
+    // padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+main{
+    margin: 2rem 5rem;
+}
+button{
+    padding: 1rem;
+    background: #2196f3;
+    outline: none;
+    border: 1px solid #2196f2;
+    border-radius: .5rem;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}

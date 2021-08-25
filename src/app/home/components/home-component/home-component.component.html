@@ -1,0 +1,15 @@
+<button (click)="navigate()">Click to lazy load the next module</button>
+<h3>Home Module</h3>
+<div style="display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 2rem;">
+    <div id="myChart"></div>
+    <div id="myChart2" ></div>
+</div>
+<!-- <div class="just-space">
+    this is just space to show lazy loading of the image
+   
+</div> -->
+<div class="div-images">
+<img *ngFor="let image of images" src="{{image}}" alt="Lazy loading images" > 
+</div>

@@ -1,0 +1,12 @@
+<button (click)="navigate()">Click to go to home module</button>
+<h3>Next Module</h3>
+<div>
+    <p>
+        This 'next' module is lazy loading but since this application is extremely small, difference cannot be seen with human eyes. But there is a way to check if a module is lazy loaded or not.
+    </p>
+    <p>
+        When this application is first time loaded and we are at homepage, and click on navigation button to reach this module, we can see that the network call that our browser makes for is "next-next-module.js" which is the name of the module we are in currently.
+        Please refer image below:
+    </p>
+    <img class="explain-ss" src="assets/images/lazy.png" >
+</div>
